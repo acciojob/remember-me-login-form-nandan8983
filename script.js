@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	document.getElementById("loginForm").addEventListener("submit", function (event) {
-		event.preventDefault(); // Prevent default form submission
+		event.preventDefault(); 
 
 		const username = usernameInput.value;
 		const password = passwordInput.value;
